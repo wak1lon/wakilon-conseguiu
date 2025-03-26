@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado! | Wakilon Ferreira</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #FFD700 0%, #FFC000 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #2C3E50;
+        }
+        
+        .thank-you-container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 90%;
+        }
+        
+        .thank-you-container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #2C3E50;
+        }
+        
+        .thank-you-container p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #7F8C8D;
+        }
+        
+        .thank-you-container .icon {
+            font-size: 80px;
+            color: #27AE60;
+            margin-bottom: 20px;
+            animation: bounce 1s infinite alternate;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #2C3E50;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+        
+        .cta-button:hover {
+            background-color: #1A1A1A;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        @keyframes bounce {
+            from { transform: translateY(0); }
+            to { transform: translateY(-10px); }
+        }
+        
+        @media (max-width: 576px) {
+            .thank-you-container {
+                padding: 30px 20px;
+            }
+            
+            .thank-you-container h1 {
+                font-size: 2rem;
+            }
+            
+            .thank-you-container p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <h1>Mensagem Enviada com Sucesso!</h1>
+        <p>Obrigado por entrar em contato, Wakilon. Em breve retornaremos sua mensagem para agendarmos sua consultoria gratuita.</p>
+        <p>Enquanto isso, que tal nos seguir nas redes sociais?</p>
+        <div style="margin: 30px 0; font-size: 24px;">
+            <a href="https://www.facebook.com/profile.php?id=61552556601819&locale=pt_BR" target="_blank" style="color: #2C3E50; margin: 0 10px;"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/wakilonf/" target="_blank" style="color: #2C3E50; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5545991472077" target="_blank" style="color: #2C3E50; margin: 0 10px;"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <a href="https://wa.me/5545991472077" class="cta-button">Falar no WhatsApp Agora</a>
+    </div>
+</body>
+</html>
